@@ -1,0 +1,41 @@
+@import "~bootstrap/scss/variables";
+
+$brand-danger: #E5664F;
+$brand-secondary: #F38412;
+$brand-primary: #1A6FC4;
+$brand-primary-hover: #0091EA;
+$brand-success: #2AB367;
+$brand-warning: $brand-secondary;
+
+$gray-light: #A8A8A8;
+$gray-lighter: #e9e9e9;
+$gray-lightest: #ffffff;
+
+$nav-link: #666666;
+
+$gray: #353535;
+$gray-dark: #232323;
+$gray-darker: #000;
+
+$font-size-root: 12px;
+
+$header-height: 45px;
+
+$primeng-border: #c5c5c5;
+
+$panel-bg: $gray-lightest;
+$panel-header-bg: $gray-lighter;
+
+$table-header-bg: $brand-primary;
+$table-header-font-hover: $brand-primary-hover;
+
+$write-lightest: #ffffff;
+$input-border: rgba(0, 0, 0, 0.15);
+
+$pick-list-border: #dddddd;
+$pick-list-bg: #fcf8e3;
+
+$gray-normal: #cccccc;
+$gray-normal-lighter: #f9f9f9;
+$gray-background: #f1f1f1;
+$gray-font: #999999;

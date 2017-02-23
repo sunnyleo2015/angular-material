@@ -1,0 +1,31 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse">
+  <a class="navbar-brand" href="#">
+    LEONG
+  </a>
+  <ul class="nav navbar-nav float-right">
+    <li class="nav-item timezone">
+      <a class="nav-link button">
+        <img src="../../../assets/images/time.svg" class="nav-icon" alt="Time zone"/>
+        Time zone
+      </a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link">
+        Hi, {{username}}
+        <img src="../../../assets/images/arrow.svg" class="icon arrow" alt="User profile"/>
+      </a>
+      <ul class="dropdown-menu">
+        <li class="dropdown-item">
+          <a >
+            Change password
+          </a>
+        </li>
+        <li class="dropdown-item">
+          <a class="text-warning" (click)="logout()">
+            Sign out
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>

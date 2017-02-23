@@ -1,0 +1,12 @@
+<div class="flex-h">
+  <div class="flex-auto">
+    <app-header></app-header>
+    <md-sidenav-container class="content">
+      <md-sidenav #leftSideNav class="left-navbar" mode="side" opened="true">
+        <app-navbar></app-navbar>
+      </md-sidenav>
+      <ng-content></ng-content>
+    </md-sidenav-container>
+  </div>
+
+</div>

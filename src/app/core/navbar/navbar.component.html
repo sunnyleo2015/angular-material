@@ -1,0 +1,10 @@
+<div *ngIf="groups">
+  <nav *ngFor="let group of groups">
+    <h3>{{group.name}}</h3>
+    <ul class="nav nav-pills nav-stacked">
+      <li *ngFor="let item of group.children" class="nav-item nav-group">
+        <a class="nav-link" [routerLink]="[item.url]">{{item.name}}</a>
+      </li>
+    </ul>
+  </nav>
+</div>

@@ -1,0 +1,17 @@
+@import "../styles/common";
+
+:host {
+  display: block;
+}
+
+.content{
+  width: 100%;
+  min-height: calc(100vh - 46px);
+  background-color: $gray-background;
+}
+
+.left-navbar{
+  width: 225px;
+  height: calc(100vh - 46px);
+  background-color: $gray-dark;
+}

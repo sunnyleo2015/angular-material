@@ -1,0 +1,11 @@
+@import "variables";
+@import "mixins";
+
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix {
+  *zoom: 1;
+  clear: both;
+}
