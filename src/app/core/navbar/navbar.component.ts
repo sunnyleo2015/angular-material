@@ -24,7 +24,7 @@ export class NavbarComponent implements OnInit {
           name: 'Radio button'
         },
         {
-          url: '',
+          url: './spike/material/select',
           name: 'Select'
         },
         {

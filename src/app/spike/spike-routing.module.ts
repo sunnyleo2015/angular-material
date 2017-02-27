@@ -4,6 +4,7 @@ import {MaterialComponent} from  './material/material.component';
 import {CheckboxComponent} from './material/checkbox/checkbox.component';
 import {InputComponent} from './material/input/input.component';
 import {RadioComponent} from './material/radio/radio.component';
+import {SelectComponent} from './material/select/select.component'
 
 const routes: Route[] = [
   {
@@ -25,6 +26,10 @@ const routes: Route[] = [
       {
         path: 'material/radio',
         component: RadioComponent,
+      },
+      {
+        path: 'material/select',
+        component: SelectComponent,
       }
     ],
   },
