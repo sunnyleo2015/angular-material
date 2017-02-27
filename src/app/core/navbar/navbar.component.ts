@@ -28,7 +28,7 @@ export class NavbarComponent implements OnInit {
           name: 'Select'
         },
         {
-          url: '',
+          url: './spike/material/slider',
           name: 'Slider'
         },
         {

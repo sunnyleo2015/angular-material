@@ -3,7 +3,7 @@ import {CommonModule} from '@angular/common';
 import {RouterModule} from "@angular/router";
 
 import {ShareModule} from '../share/share.module';
-import {MdInputModule, MdRadioModule, MdSelectModule} from '@angular/material';
+import {MdInputModule, MdRadioModule, MdSelectModule, MdSliderModule} from '@angular/material';
 
 import {MaterialComponent} from './material/material.component';
 import {SpikeComponent} from './spike.component';
@@ -12,6 +12,7 @@ import {CheckboxComponent} from './material/checkbox/checkbox.component';
 import {InputComponent} from './material/input/input.component';
 import {RadioComponent} from './material/radio/radio.component';
 import { SelectComponent } from './material/select/select.component';
+import { SliderComponent } from './material/slider/slider.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { SelectComponent } from './material/select/select.component';
     MdInputModule,
     MdRadioModule,
     MdSelectModule,
+    MdSliderModule,
     routing,
   ],
   exports: [
@@ -29,6 +31,7 @@ import { SelectComponent } from './material/select/select.component';
     MdInputModule,
     MdRadioModule,
     MdSelectModule,
+    MdSliderModule,
   ],
   declarations: [
     MaterialComponent,
@@ -37,6 +40,7 @@ import { SelectComponent } from './material/select/select.component';
     InputComponent,
     RadioComponent,
     SelectComponent,
+    SliderComponent,
   ],
   entryComponents: [SpikeComponent]
 })
