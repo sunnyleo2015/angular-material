@@ -1,3 +1,109 @@
-<md-input-container>
-  <input mdInput placeholder="Favorite food" value="Sushi">
-</md-input-container>
+<form>
+  <md-input-container>
+    <input mdInput placeholder="normal" value="leo">
+  </md-input-container>
+
+  <md-input-container>
+    <input mdInput placeholder="disabled" value="leo" disabled>
+  </md-input-container>
+
+  <table cellspacing="0">
+    <tr>
+      <td>
+        <md-input-container>
+          <input mdInput placeholder="First name">
+        </md-input-container>
+      </td>
+      <td>
+        <md-input-container>
+          <input mdInput placeholder="Long Last Name That Will Be Truncated">
+        </md-input-container>
+      </td>
+    </tr>
+  </table>
+
+  <table cellspacing="0">
+    <tr>
+      <td>
+        <md-input-container align="end">
+          <input mdInput placeholder="City">
+        </md-input-container>
+      </td>
+      <td>
+        <md-input-container>
+          <input mdInput placeholder="State">
+        </md-input-container>
+      </td>
+      <td>
+        <md-input-container>
+          <input mdInput #postalCode maxlength="5" placeholder="Postal Code" value="94043">
+          <md-hint align="end">{{postalCode.value.length}} / 5</md-hint>
+        </md-input-container>
+      </td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td>
+        <md-input-container align="center">
+          <input mdInput type="date" placeholder="date">
+        </md-input-container>
+      </td>
+      <td>
+        <md-input-container align="center">
+          <input mdInput type="datetime-local" placeholder="datetime-local">
+        </md-input-container>
+      </td>
+      <td>
+        <md-input-container align="center">
+          <input mdInput type="email" placeholder="email">
+        </md-input-container>
+      </td>
+      <td>
+        <md-input-container align="center">
+          <input mdInput type="month" placeholder="month">
+        </md-input-container>
+      </td>
+      <td>
+        <md-input-container align="center">
+          <input mdInput type="number" placeholder="number">
+        </md-input-container>
+      </td>
+      <td>
+        <md-input-container align="center">
+          <input mdInput type="password" placeholder="password">
+        </md-input-container>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <md-input-container align="center">
+          <input mdInput type="search" placeholder="search">
+        </md-input-container>
+      </td>
+      <td>
+        <md-input-container align="center">
+          <input mdInput type="tel" placeholder="tel">
+        </md-input-container>
+      </td>
+      <td>
+        <md-input-container align="center">
+          <input mdInput type="time" placeholder="time">
+        </md-input-container>
+      </td>
+      <td>
+        <md-input-container align="center">
+          <input mdInput type="url" placeholder="url">
+        </md-input-container>
+      </td>
+      <td>
+        <md-input-container align="center">
+          <input mdInput type="week" placeholder="week">
+        </md-input-container>
+      </td>
+    </tr>
+  </table>
+</form>
+
+

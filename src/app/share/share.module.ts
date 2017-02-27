@@ -1,7 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 import {HttpModule} from "@angular/http";
-import { MaterialModule } from '@angular/material';
+import {MaterialModule} from '@angular/material';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -9,8 +10,13 @@ import { MaterialModule } from '@angular/material';
     CommonModule,
     HttpModule,
     MaterialModule.forRoot(),
+    FormsModule,
   ],
-  exports: [HttpModule, MaterialModule],
+  exports: [
+    HttpModule,
+    MaterialModule,
+    FormsModule],
   declarations: []
 })
-export class ShareModule { }
+export class ShareModule {
+}

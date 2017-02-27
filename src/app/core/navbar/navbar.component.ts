@@ -20,7 +20,7 @@ export class NavbarComponent implements OnInit {
           name: 'Input'
         },
         {
-          url: '',
+          url: './spike/material/radio',
           name: 'Radio button'
         },
         {

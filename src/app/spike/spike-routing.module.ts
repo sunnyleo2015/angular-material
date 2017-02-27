@@ -3,6 +3,7 @@ import {SpikeComponent} from './spike.component';
 import {MaterialComponent} from  './material/material.component';
 import {CheckboxComponent} from './material/checkbox/checkbox.component';
 import {InputComponent} from './material/input/input.component';
+import {RadioComponent} from './material/radio/radio.component';
 
 const routes: Route[] = [
   {
@@ -20,6 +21,10 @@ const routes: Route[] = [
       {
         path: 'material/input',
         component: InputComponent,
+      },
+      {
+        path: 'material/radio',
+        component: RadioComponent,
       }
     ],
   },
