@@ -1,0 +1,37 @@
+<md-card>
+  <md-card-content>
+    <h2 class="example-h2">Slider Toggle configuration</h2>
+
+    <section>
+      <label>Color: </label>
+      <md-radio-group [(ngModel)]="color">
+        <md-radio-button value="primary">Primary</md-radio-button>
+        <md-radio-button value="accent">Accent</md-radio-button>
+        <md-radio-button value="warn">Warn</md-radio-button>
+      </md-radio-group>
+    </section>
+
+    <section>
+      <md-checkbox [(ngModel)]="checked">Checked</md-checkbox>
+    </section>
+
+    <section>
+      <md-checkbox [(ngModel)]="disabled">Disabled</md-checkbox>
+    </section>
+  </md-card-content>
+</md-card>
+
+<md-card>
+  <md-card-content>
+    <h2>Result</h2>
+    <section>
+      <md-slide-toggle
+        [color]="color"
+        [checked]="checked"
+        [disabled]="disabled"
+      >
+        Slide Toggle
+      </md-slide-toggle>
+    </section>
+  </md-card-content>
+</md-card>

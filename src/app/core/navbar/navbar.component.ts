@@ -32,8 +32,8 @@ export class NavbarComponent implements OnInit {
           name: 'Slider'
         },
         {
-          url: '',
-          name: 'Slide button'
+          url: './spike/material/slider-toggle',
+          name: 'Slide Toggle'
         },
       ]
     }

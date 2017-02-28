@@ -3,7 +3,7 @@ import {CommonModule} from '@angular/common';
 import {RouterModule} from "@angular/router";
 
 import {ShareModule} from '../share/share.module';
-import {MdInputModule, MdRadioModule, MdSelectModule, MdSliderModule} from '@angular/material';
+import {MdInputModule, MdRadioModule, MdSelectModule, MdSliderModule, MdSlideToggleModule} from '@angular/material';
 
 import {MaterialComponent} from './material/material.component';
 import {SpikeComponent} from './spike.component';
@@ -11,8 +11,9 @@ import {routing} from './spike-routing.module';
 import {CheckboxComponent} from './material/checkbox/checkbox.component';
 import {InputComponent} from './material/input/input.component';
 import {RadioComponent} from './material/radio/radio.component';
-import { SelectComponent } from './material/select/select.component';
-import { SliderComponent } from './material/slider/slider.component';
+import {SelectComponent} from './material/select/select.component';
+import {SliderComponent} from './material/slider/slider.component';
+import {SlideToggleComponent} from './material/slide-toggle/slide-toggle.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { SliderComponent } from './material/slider/slider.component';
     MdRadioModule,
     MdSelectModule,
     MdSliderModule,
+    MdSlideToggleModule,
     routing,
   ],
   exports: [
@@ -32,6 +34,7 @@ import { SliderComponent } from './material/slider/slider.component';
     MdRadioModule,
     MdSelectModule,
     MdSliderModule,
+    MdSlideToggleModule,
   ],
   declarations: [
     MaterialComponent,
@@ -41,6 +44,7 @@ import { SliderComponent } from './material/slider/slider.component';
     RadioComponent,
     SelectComponent,
     SliderComponent,
+    SlideToggleComponent,
   ],
   entryComponents: [SpikeComponent]
 })

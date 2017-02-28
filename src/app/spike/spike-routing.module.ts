@@ -6,6 +6,7 @@ import {InputComponent} from './material/input/input.component';
 import {RadioComponent} from './material/radio/radio.component';
 import {SelectComponent} from './material/select/select.component';
 import {SliderComponent} from './material/slider/slider.component';
+import {SlideToggleComponent} from './material/slide-toggle/slide-toggle.component';
 
 const routes: Route[] = [
   {
@@ -35,6 +36,10 @@ const routes: Route[] = [
       {
         path: 'material/slider',
         component: SliderComponent,
+      },
+      {
+        path: 'material/slider-toggle',
+        component: SlideToggleComponent,
       }
     ],
   },
