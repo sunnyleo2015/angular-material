@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-slider',
@@ -26,4 +26,7 @@ export class SliderComponent implements OnInit {
   }
   private _tickInterval = 1;
 
+  ngOnInit(){
+
+  }
 }
