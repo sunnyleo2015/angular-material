@@ -36,6 +36,23 @@ export class NavbarComponent implements OnInit {
           name: 'Slide Toggle'
         },
       ]
+    },
+    {
+      name: 'NAVIGATION',
+      children: [
+        {
+          url:'',
+          name:'',
+        },
+        {
+          url:'',
+          name:'',
+        },
+        {
+          url:'',
+          name:'',
+        },
+      ]
     }
   ];
 
