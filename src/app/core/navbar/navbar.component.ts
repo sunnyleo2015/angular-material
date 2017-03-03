@@ -41,8 +41,8 @@ export class NavbarComponent implements OnInit {
       name: 'NAVIGATION',
       children: [
         {
-          url:'',
-          name:'',
+          url:'./spike/material/mean',
+          name:'Mean',
         },
         {
           url:'',

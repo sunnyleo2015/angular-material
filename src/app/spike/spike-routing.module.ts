@@ -7,6 +7,7 @@ import {RadioComponent} from './material/radio/radio.component';
 import {SelectComponent} from './material/select/select.component';
 import {SliderComponent} from './material/slider/slider.component';
 import {SlideToggleComponent} from './material/slide-toggle/slide-toggle.component';
+import {MeanComponent} from './material/mean/mean.component';
 
 const routes: Route[] = [
   {
@@ -40,6 +41,10 @@ const routes: Route[] = [
       {
         path: 'material/slider-toggle',
         component: SlideToggleComponent,
+      },
+      {
+        path: 'material/mean',
+        component: MeanComponent,
       }
     ],
   },
