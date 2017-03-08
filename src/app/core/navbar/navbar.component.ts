@@ -45,12 +45,21 @@ export class NavbarComponent implements OnInit {
           name:'Mean',
         },
         {
-          url:'',
-          name:'',
+          url:'./spike/material/side-nav',
+          name:'Side Nav',
         },
         {
-          url:'',
-          name:'',
+          url:'./spike/material/toolbar',
+          name:'Toolbar',
+        },
+      ]
+    },
+    {
+      name: 'LAYOUT',
+      children: [
+        {
+          url:'./spike/material/list',
+          name:'List',
         },
       ]
     }

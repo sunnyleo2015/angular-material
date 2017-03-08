@@ -3,7 +3,17 @@ import {CommonModule} from '@angular/common';
 import {RouterModule} from "@angular/router";
 
 import {ShareModule} from '../share/share.module';
-import {MdInputModule, MdRadioModule, MdSelectModule, MdSliderModule, MdSlideToggleModule, MdMenuModule} from '@angular/material';
+import {
+  MdInputModule,
+  MdRadioModule,
+  MdSelectModule,
+  MdSliderModule,
+  MdSlideToggleModule,
+  MdMenuModule,
+  MdSidenavModule,
+  MdToolbarModule,
+  MdListModule,
+} from '@angular/material';
 
 import {MaterialComponent} from './material/material.component';
 import {SpikeComponent} from './spike.component';
@@ -14,7 +24,10 @@ import {RadioComponent} from './material/radio/radio.component';
 import {SelectComponent} from './material/select/select.component';
 import {SliderComponent} from './material/slider/slider.component';
 import {SlideToggleComponent} from './material/slide-toggle/slide-toggle.component';
-import { MeanComponent } from './material/mean/mean.component';
+import {MeanComponent} from './material/mean/mean.component';
+import {SideNavComponent} from './material/side-nav/side-nav.component';
+import { ToolbarComponent } from './material/toolbar/toolbar.component';
+import { ListComponent } from './material/list/list.component';
 
 
 @NgModule({
@@ -28,6 +41,9 @@ import { MeanComponent } from './material/mean/mean.component';
     MdSliderModule,
     MdSlideToggleModule,
     MdMenuModule,
+    MdSidenavModule,
+    MdToolbarModule,
+    MdListModule,
     routing,
   ],
   exports: [
@@ -38,6 +54,9 @@ import { MeanComponent } from './material/mean/mean.component';
     MdSliderModule,
     MdSlideToggleModule,
     MdMenuModule,
+    MdSidenavModule,
+    MdToolbarModule,
+    MdListModule,
   ],
   declarations: [
     MaterialComponent,
@@ -49,6 +68,9 @@ import { MeanComponent } from './material/mean/mean.component';
     SliderComponent,
     SlideToggleComponent,
     MeanComponent,
+    SideNavComponent,
+    ToolbarComponent,
+    ListComponent,
   ],
   entryComponents: [SpikeComponent]
 })

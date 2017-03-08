@@ -8,6 +8,9 @@ import {SelectComponent} from './material/select/select.component';
 import {SliderComponent} from './material/slider/slider.component';
 import {SlideToggleComponent} from './material/slide-toggle/slide-toggle.component';
 import {MeanComponent} from './material/mean/mean.component';
+import {SideNavComponent} from './material/side-nav/side-nav.component';
+import {ToolbarComponent} from './material/toolbar/toolbar.component';
+import {ListComponent} from './material/list/list.component';
 
 const routes: Route[] = [
   {
@@ -45,6 +48,18 @@ const routes: Route[] = [
       {
         path: 'material/mean',
         component: MeanComponent,
+      },
+      {
+        path: 'material/side-nav',
+        component: SideNavComponent,
+      },
+      {
+        path: 'material/toolbar',
+        component: ToolbarComponent
+      },
+      {
+        path: 'material/list',
+        component: ListComponent,
       }
     ],
   },

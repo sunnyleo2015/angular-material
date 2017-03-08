@@ -1,0 +1,13 @@
+@import "../../../core/styles/common";
+
+:host {
+  display: block;
+}
+
+.icon {
+  padding: 0 14px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
